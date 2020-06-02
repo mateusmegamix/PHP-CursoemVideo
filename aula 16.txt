@@ -1,0 +1,11 @@
+$nome = "   Mateus Pereira   ";
+echo(strlen($nome));//19
+$novo=trim($nome);//Mateus Pereira
+echo(strlen($novo));//13
+
+$frase = "Eu vou estudar  Php  agora";
+$cont = str_word_cont($frase, 1);// com 0 conta quantas palavras tem
+print_r($cont);//com 1 conta todas as palvras em 1 array
+
+//split conta vetor por letras.
+
